@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\ADIKIBERNITIKOS\Desktop\111\1_.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3387F62A-4C34-4053-989B-52067367E904}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Thunder Spoofer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DiscordRPC">
+      <HintPath>lib\DiscordRPC.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>lib\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.UI">
+      <HintPath>lib\Siticone.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_003CModule_003E.cs" />
+    <Compile Include="c`2.cs" />
+    <Compile Include="d.cs" />
+    <Compile Include="e.cs" />
+    <Compile Include="h.cs" />
+    <Compile Include="Thunder Spoofer_ProcessedByFody.cs" />
+    <Compile Include="_003CModule_003E{510AD463-3CBA-4251-98F2-BD34D9F73.cs" />
+    <Compile Include="Lean\Properties\Resources.cs" />
+    <Compile Include="Loader\GameSpoofer.cs" />
+    <Compile Include="Loader\REGISTER.cs" />
+    <Compile Include="Loader\Setting.cs" />
+    <Compile Include="Loader\Spoofer.cs" />
+    <Compile Include="Loader\UserControl2.cs" />
+    <Compile Include="DiscordRpcDemo\DiscordRpc.cs" />
+    <Compile Include="Protection\Debug.cs" />
+    <Compile Include="Protection\ProcessCheck.cs" />
+    <Compile Include="KeyAuth\Dashboard.cs" />
+    <Compile Include="KeyAuth\api.cs" />
+    <Compile Include="KeyAuth\encryption.cs" />
+    <Compile Include="KeyAuth\json_wrapper.cs" />
+    <Compile Include="KeyAuth\Main.cs" />
+    <Compile Include="KeyAuth\Login.cs" />
+    <Compile Include="KeyAuth\Program.cs" />
+    <Compile Include="KeyAuth\Properties\Resources.cs" />
+    <Compile Include="KeyAuth\Properties\Settings.cs" />
+    <Compile Include="Costura\AssemblyLoader.cs" />
+    <Compile Include="rTtVXgHRgBSsFavshV\fousyr1O5TImehMQsy.cs" />
+    <Compile Include="SG9KiyIbtdgGDf12qr\z2jc63fLkugS1X8Q9N.cs" />
+    <Compile Include="cnrhLs8n43tu50PqDX\qsV27iYB524t2usC5L.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="9UFebQl0L8NMkiD9kc.7E3rICvMPJTMBFbCqB" />
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31\lSfgApatkdxsVcGcrktoFd.resx" />
+    <EmbeddedResource Include="KeyAuth\Dashboard.resx" />
+    <EmbeddedResource Include="KeyAuth\Login.resx" />
+    <EmbeddedResource Include="KeyAuth\Main.resx" />
+    <EmbeddedResource Include="Loader\GameSpoofer.resx" />
+    <EmbeddedResource Include="Loader\Properties\Resources.resx" />
+    <EmbeddedResource Include="Loader\REGISTER.resx" />
+    <EmbeddedResource Include="Loader\Setting.resx" />
+    <EmbeddedResource Include="Loader\Spoofer.resx" />
+    <EmbeddedResource Include="Loader\UserControl2.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
